@@ -15,13 +15,7 @@
 - **pandas**
 - **numpy**
 - **scipy**
-- sklearn.model_selection.**cross_val_score**
-- sklearn.metrics.**mean_squared_error**
-- sklearn.metrics.**mean_absolute_error**
-- sklearn.preprocessing.**StandardScaler**
-- sklearn.linear_model.**LinearRegression**
-- sklearn.tree.**DecisionTreeRegressor**
-- sklearn.ensemble.**RandomForestRegressor**
+- **sklearn**
 - **matplotlib**
 
 ## 
