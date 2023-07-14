@@ -1,6 +1,8 @@
 # Улучшение процесса обогащения золота
 
-[HTML](https://github.com/KovalevMV/Portfolio/tree/main/Gold%20Recovery/Gold Recovery.html)     [ipynb](https://github.com/aq2003/Portfolio/tree/main/Gold%20Recovery/Gold Recovery.ipynb)
+[HTML](https://github.com/KovalevMV/Portfolio/blob/main/Gold%20Recovery/Gold%20Recovery.html)   or    [ipynb](https://github.com/KovalevMV/Portfolio/blob/main/Gold%20Recovery/Gold%20Recovery.ipynb)
+
+
 
 ## Описание проекта
 
