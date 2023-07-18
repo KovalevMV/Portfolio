@@ -2,7 +2,7 @@
 
 # Прогноз количества заказов для сервиса такси
 
-[HTML](https://github.com/Portfolio/blob/main/Taxi%20Service/P12_Portfolio.html)     [ipynb](https://github.com/aq2003/Portfolio/blob/main/Taxi%20Service/P12_Portfolio.ipynb)
+
 
 ## Описание проекта
 
