@@ -1,6 +1,6 @@
 # Телеком 📞: исследование оттока клиентов
 
-[ipynb](https://github.com/KovalevMV/Portfolio/blob/main/Gold%20Recovery/Gold%20Recovery.ipynb)
+[ipynb](https://github.com/KovalevMV/Portfolio/blob/main/Telecom/telecom_customer_churn_for_git.ipynb)
 
 ## Описание проекта
 
