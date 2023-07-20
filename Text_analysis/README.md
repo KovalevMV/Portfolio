@@ -1,5 +1,5 @@
 # Анализ текстов
-[ipynb](https://github.com/KovalevMV/Portfolio/blob/main/Telecom/telecom_customer_churn_for_git.ipynb)
+[ipynb](https://github.com/KovalevMV/Portfolio/blob/main/Text_analysis/NLP_for_git.ipynb)
 
 
 ## Описание проекта
