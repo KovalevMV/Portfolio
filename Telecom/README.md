@@ -1,28 +1,27 @@
-# Прогноз количества заказов для сервиса такси
+# Телеком 📞: исследование оттока клиентов
 
 [ipynb](https://github.com/KovalevMV/Portfolio/blob/main/Gold%20Recovery/Gold%20Recovery.ipynb)
 
 ## Описание проекта
 
-Требуется спрогнозировать количество заказов такси на следующий час, чтобы привлекать больше водителей в период пиковой нагрузки.
+Оператор связи поставил задачу научиться прогнозировать отток клиентов при условии выяснения, что пользователь планирует уйти, ему будут предложены промокоды и специальные условия.
 
 ## Навыки и инструменты
 
 - **python**
 - **pandas**
 - **numpy**
-- statsmodels.tsa.seasonal.**seasonal_decompose**
-- sklearn.model_selection.**TimeSeriesSplit**
-- sklearn.model_selection.**GridSearchCV**
-- sklearn.metrics.**mean_squared_error**
-- sklearn.metrics.**make_scorer**
-- sklearn.linear_model.**LinearRegression**
-- sklearn.ensemble.**RandomForestRegressor**
-- catboost.**CatBoostRegressor**
-- **matplotlib**
+- sklearn.model_selection import train_test_split
+- catboost import CatBoostClassifier
+- xgboost import XGBClassifier #
+- lightgbm import LGBMClassifier #
+- RandomizedSearchCV, GridSearchCV, cross_val_score, ShuffleSplit
+- sklearn.metrics: roc_auc_score, auc, roc_curve, classification_report, confusion_matrix, accuracy_score, RocCurveDisplay, ConfusionMatrixDisplay
+- sklearn.preprocessing: OneHotEncoder,  OrdinalEncoder,  StandardScaler
 
 ## 
 
 ## Общий вывод
 
-Проведено исследование временного ряда на предмет трендовых и сезонных закономерностей, случайной составляющей. Проведено исследование трёх типов моделей, выбрана линейная регрессия.
+1. Машинное обучение позволяет видеть метрики вероятности ухода клиента и наиболее выжные признаки, т.е. то на что стоит обратить внимание.  
+2. Обученная модель (AUC-ROC test:  0.928) полностью справляется с поставленной заказчиком задачи (AUC-ROC >= 0.85)
