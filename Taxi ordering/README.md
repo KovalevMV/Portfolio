@@ -1,7 +1,6 @@
-# Редактирую    
 # Прогноз количества заказов для сервиса такси
 
-
+[ipynb](https://github.com/KovalevMV/Portfolio/blob/main/Gold%20Recovery/Gold%20Recovery.ipynb)
 
 ## Описание проекта
 
