@@ -1,10 +1,8 @@
-# Работаю над этим
-
 # Анализ текстов
 
 ## Описание проекта
 
-Требуется анализировать комментарии пользователей на английском языке и выделять токсичные, чтобы отправить на модерацию.
+(NLP) Классификация с выделением токсичных комментариев на английском язык для дольнейшей модерации.
 
 
 
@@ -14,13 +12,17 @@
 - **pandas**
 - **numpy**
 - nltk.stem.**WordNetLemmatizer**
-- sklearn.feature_extraction.text.**TfidfVectorizer**
-- sklearn.linear_model.**LogisticRegression**
 - sklearn.ensemble.**RandomForestClassifier**
-- catboost.**CatBoostClassifier**
+- nltk.tokenize 
+- nltk.corpus 
+- LogisticRegression
+- TfidfVectorizer  
+- train_test_split, RandomizedSearchCV
+- DecisionTreeClassifier
+- f1_score
 
 
 
 ## Вывод
 
-Была проведена исследовательская работа по обработке текстов и обучению и выбору модели для определения токсичных комментариев по методу TF-IDF. Выбрана линейная регрессия. Намечены шаги по дальнейшей настройке модели.
+Была проведена исследовательская работа по обработке текстов и обучению и выбору модели для определения токсичных комментариев.  Исходя из полученных метрик качества моделей, лучшая модель на RandomizedSearchCV - LightGBM c параметрами max_depth: 25, learning_rate: 0.3. Необходимые метрики достигнуты, модель LightGBM, обученная через RandomizedSearchCV, предсказывает с необходимой метрикой: F1 > 0.75.
